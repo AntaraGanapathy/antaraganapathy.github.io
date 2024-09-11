@@ -1,13 +1,13 @@
 import { BrowserRouter } from "react-router-dom";
 
-import { Home, StarsCanvas } from './components';
+import { Home, StarsCanvas, Navbar } from './components';
 
 const App = () => {
   return (
     <BrowserRouter>
     <div className="relative bg-primary">
       <div className="relative z-0">
-        {/* <Navbar /> */}
+        <Navbar />
         <Home />
         <StarsCanvas />
       </div>
