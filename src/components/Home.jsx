@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles'
-import { Stars } from "./canvas";
+// import { Stars } from "./canvas";
 
-const Hero = () => {
+const Home = () => {
   return (
     <section className='relative w-full h-screen mx-auto'>
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5`}>
@@ -41,4 +41,4 @@ const Hero = () => {
   );
 };
 
-export default Hero
+export default Home
