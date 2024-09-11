@@ -9,17 +9,18 @@ const App = () => {
       <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
         {/* <Navbar /> */}
         <Home />
-        <StarsCanvas />
+        {/* <StarsCanvas /> */}
       </div>
       {/* <About />
       <Experience />
       <Tech />
       <Works />
-      <Feedbacks />
+      <Feedbacks /> */}
       <div className="relative z-0">
-        <Contact />
+        <p> oedmoido2</p>
+        {/* <Contact /> */}
         <StarsCanvas />
-      </div> */}
+      </div>
     </div>
     </BrowserRouter>
   )
