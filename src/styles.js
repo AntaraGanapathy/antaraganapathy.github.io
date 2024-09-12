@@ -12,6 +12,9 @@ const styles = {
       "text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
     sectionSubText:
       "sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider",
+    scroll1:
+      "w-10 h-20 border-solid	border-2 border-white	rounded-3xl	animate-bounce",	
+      	//  width: 50px; height: 90px; border: 3px solid #FFFFFF; border-radius: 60px; position: relative; &::before { content: ''; width: 12px; height: 12px; position: absolute; top: 10px; left: 50%; transform: translateX(-50%); background-color: #FFFFFF; border-radius: 50%; opacity: 1; animation: wheel 2s infinite; -webkit-animation: wheel 2s infinite; } @keyframes wheel { to { opacity: 0; top: 60px; } } @-webkit-keyframes wheel { to { opacity: 0; top: 60px; } }",
   };
   
   export { styles };
