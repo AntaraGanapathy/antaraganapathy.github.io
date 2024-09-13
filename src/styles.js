@@ -15,11 +15,10 @@ const styles = {
     scroll1:
       "w-10 h-20 border-solid	border-2 border-white	rounded-3xl	animate-bounce flex justify-center items-start p-1 bottom-0	",	
     scroll2:
-      // "w-0 h-0 border-[13px] inline-block align-bottom bg-teal-400 text-sm",
-      // "w-3 h-3 rounded-full bg-secondary  fixed bottom-1 ",
-      // "w-0 h-0 border-[20px] border-transparent border-t-red-500 border-b-0"
       "w-3 h-3 border-l-2 border-b-2 -rotate-45	fixed bottom-4",
-      	//  width: 50px; height: 90px; border: 3px solid #FFFFFF; border-radius: 60px; position: relative; &::before { content: ''; width: 12px; height: 12px; position: absolute; top: 10px; left: 50%; transform: translateX(-50%); background-color: #FFFFFF; border-radius: 50%; opacity: 1; animation: wheel 2s infinite; -webkit-animation: wheel 2s infinite; } @keyframes wheel { to { opacity: 0; top: 60px; } } @-webkit-keyframes wheel { to { opacity: 0; top: 60px; } }",
+
+    typed:
+      "after:content-['|']-inline",
   };
   
   export { styles };
