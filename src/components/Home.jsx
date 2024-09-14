@@ -1,6 +1,8 @@
-import { motion } from 'framer-motion';
+// import { motion } from 'framer-motion';
 
 import { styles } from '../styles'
+import { TypeAnimation } from 'react-type-animation';
+
 // import { Stars } from "./canvas";
 
 const Home = () => {
@@ -12,11 +14,30 @@ const Home = () => {
           <div className='w-1 sm:h-80 h-40 violet-gradient'/>
         </div> */}
 
-        <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>Hi! My name is <span className='text-[#915eff]'>Antara</span></h1>
-          <h1 className={`${styles.heroHeadText} text-white`}>I am a <span className='text-[#915eff]'></span></h1>
+        <div className=' block space-y-28'>
+          <div><h1 className={`${styles.heroHeadText} text-white`}>Hi! My name is <span className='text-[#915eff]'>Antara</span></h1></div>
+          <div>
+            <TypeAnimation
+              className={`${styles.heroHeadText} text-white mt-1000`}
+              sequence={[
+                // Same substring at the start will only be typed out once, initially
+                'I am a developer',
+                2000, // wait 1s before replacing "Mice" with "Hamsters"
+                'I am a student',
+                2000,
+                'I am a something',
+                2000,
+              ]}
+              wrapper="span"
+              speed={10}
+              // style={{ fontSize: '2em', display: 'inline-block' }}
+              repeat={Infinity}
+            />
+          </div>
+          {/* <h1 className={`${styles.heroHeadText} text-white`}>I am a <span className='text-[#915eff]'></span></h1> */}
           {/* <h1 className={`${styles.heroSubText} mt-2 text-white-100`}> Lorem ipsum dolor sit amet, <br className='sm:block hidden' /> consectetur adipiscing elit </h1> */}
         </div>
+
       </div>
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
@@ -26,7 +47,7 @@ const Home = () => {
           </div>
         </a>
       </div>
-      
+
     </section>
 
   );
