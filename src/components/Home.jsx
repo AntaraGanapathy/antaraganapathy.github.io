@@ -15,14 +15,13 @@ const Home = () => {
         </div> */}
 
         <div className=' block space-y-28'>
-          <div><h1 className={`${styles.heroHeadText} text-white`}>Hi! My name is <span className='text-[#915eff]'>Antara</span></h1></div>
+          <div><h1 className={`${styles.headingText} text-white`}>Hi! My name is <span className='text-[#915eff]'>Antara</span></h1></div>
           <div>
             <TypeAnimation
-              className={`${styles.heroHeadText} text-white mt-1000`}
+              className={`${styles.headingText} text-white mt-1000`}
               sequence={[
-                // Same substring at the start will only be typed out once, initially
                 'I am a developer',
-                2000, // wait 1s before replacing "Mice" with "Hamsters"
+                2000, 
                 'I am a student',
                 2000,
                 'I am a something',
@@ -30,7 +29,6 @@ const Home = () => {
               ]}
               wrapper="span"
               speed={10}
-              // style={{ fontSize: '2em', display: 'inline-block' }}
               repeat={Infinity}
             />
           </div>
