@@ -18,7 +18,9 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-white text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a first-year student at the <span className='text-secondary'>University of Manchester</span> studying <span className='text-secondary'>Computer Science</span>.
+        I am a first-year student at the <span className='text-secondary'>University of Manchester</span> studying <span className='text-secondary'>Computer Science</span>. 
+        As an aspiring tech entrepreneur, my aim is <span className='text-secondary'>to leverage technology to solve problems at scale</span>. 
+        With a strong belief in  <span className='italic'>learning by doing</span>, I have contanly sought out opportunities over the years to further my tech skills.
       </motion.p>
     </div>
   );

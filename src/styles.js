@@ -15,7 +15,7 @@ const styles = {
     scroll1:
       "w-10 h-20 border-solid	border-2 border-white	rounded-3xl	animate-bounce flex justify-center items-start p-1 bottom-0	",	
     scroll2:
-      "w-3 h-3 border-l-2 border-b-2 -rotate-45	fixed bottom-4",
+      "w-3 h-3 border-l-2 border-b-2 border-secondary -rotate-45	fixed bottom-4",
 
   };
   
