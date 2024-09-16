@@ -119,23 +119,10 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "RAG Chatbot",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
-          color: "pink-text-gradient",
-        },
-      ],
+        "A web-app that allows the user to chat with a PDF. Developed with Pinecone and Langchain, the bot uses Retrieval-Augmented Generation to generate context-specific answers",
+      tags: ['rag','ai-ml'],
       image: carrent,
       source_code_link: "https://github.com/",
     },
@@ -143,20 +130,7 @@ import {
       name: "Job IT",
       description:
         "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
+      tags: ['nextjs','css','mongodb'],
       image: jobit,
       source_code_link: "https://github.com/",
     },
@@ -164,20 +138,7 @@ import {
       name: "Trip Guide",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
-      ],
+      tags: ['nextjs','css','mongodb'],
       image: tripguide,
       source_code_link: "https://github.com/",
     },

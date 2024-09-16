@@ -41,7 +41,7 @@ const ProjectCard = ({
               <img
                 src={github}
                 alt='source code'
-                className='w-1/2 h-1/2 object-contain'
+                className='w-1/2 h-1/2'
               />
             </div>
           </div>
@@ -52,13 +52,23 @@ const ProjectCard = ({
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
 
-        <div className='mt-4 flex flex-wrap gap-2'>
+        {/* <div className='mt-4 flex flex-wrap gap-2'>
           {tags.map((tag) => (
             <p
               // key={`${name}-${tag.name}`}
               className={`text-[14px] ${tag.color}`}
             >
               #{tag.name}
+            </p>
+          ))}
+        </div> */}
+        <div className='mt-4 flex flex-wrap gap-2'>
+          {tags.map((tag) => (
+            <p
+              key={`${name}-${tag.name}`}
+              className={`text-[14px] text-white`}
+            >
+              #{tag}
             </p>
           ))}
         </div>
