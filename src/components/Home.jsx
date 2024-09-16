@@ -20,7 +20,7 @@ const Home = () => {
             <TypeAnimation
               className={`${styles.headingText} text-white mt-1000`}
               sequence={[
-                'I am a developer',
+                "I am a developer",
                 2000, 
                 'I am a student',
                 2000,

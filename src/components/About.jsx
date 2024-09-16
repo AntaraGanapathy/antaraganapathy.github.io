@@ -21,7 +21,7 @@ const About = () => {
       >
         I am a first-year student at the <span className='text-secondary'>University of Manchester</span> studying <span className='text-secondary'>Computer Science</span>. 
         As an aspiring tech entrepreneur, my aim is <span className='text-secondary'>to leverage technology to solve problems at scale</span>. 
-        With a strong belief in  <span className='text-secondary'>learning by doing</span>, I have constanly sought out opportunities over the years to further my tech skills.
+        With a strong belief in  <span className='text-secondary'>learning by doing</span>, I have consistently sought out opportunities over the years to further my skills and to gain new experiences.
       </motion.p>
     </div>
   );
