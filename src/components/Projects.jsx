@@ -70,7 +70,8 @@ const ProjectCard = ({
 const Projects = () => {
   return (
     <>
-      <div className='backdrop-blur-sm'>
+      {/* <div className='backdrop-blur-sm'> */}
+      <div>
         <motion.div variants={textVariant()}>
           <h2 className={`${styles.sectionHeadText}`}>Projects<span className='text-secondary'>.</span></h2>
         </motion.div>
@@ -96,4 +97,4 @@ const Projects = () => {
   );
 };
 
-export default SectionWrapper(Projects, "");
+export default SectionWrapper(Projects, "projects");
