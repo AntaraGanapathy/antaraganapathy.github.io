@@ -122,26 +122,26 @@ import {
     {
       name: "RAG Chatbot",
       description:
-        "A web-app that allows the user to chat with a PDF. Developed with Pinecone and Langchain, the bot uses Retrieval-Augmented Generation to generate context-specific answers",
+        "Web-app that allows the user to chat with a PDF. Developed using Pinecone and Langchain, the bot uses Retrieval-Augmented Generation to generate context-specific answers",
       tags: ['rag','ai-ml'],
       image: chatbot,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/AntaraGanapathy/rag-chatbot",
     },
     {
       name: "Glaucoma Detection",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: ['ai-ml','cnn','mongodb'],
+        "Machine learning model trained to diagnose glaucoma through eye scans. Trained with transfer learning, the performance of different pre-trained models were compared.",
+      tags: ['ai-ml','cnn','computer-vision'],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/AntaraGanapathy/Glaucoma-Detection",
     },
     {
-      name: "Trip Guide",
+      name: "Sentiment Analysis",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: ['nextjs','css','mongodb'],
+        "Model trained, with Natural Language Processing, to analyze the sentiment of news headlines. The models was evaluated against news headlines scraped from CNN's opinion column",
+      tags: ['web-scraping','nlp','ai-ml'],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/AntaraGanapathy/Sentiment-Analysis",
     },
   ];
   
