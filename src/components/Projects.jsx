@@ -18,7 +18,7 @@ const ProjectCard = ({
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}
-    className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full card border border-primary hover:border-secondary '>
+      className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full card border border-primary hover:border-secondary '>
       {/* <Tilt
         options={{
           max: 45,
@@ -27,14 +27,14 @@ const ProjectCard = ({
         }}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full bg-gray'
       > */}
-        <div className='relative w-full h-[230px]'>
-          <img
-            src={image}
-            alt='project_image'
-            className='w-full h-full object-cover rounded-2xl'
-          />
+      <div className='relative w-full h-[230px]'>
+        <img
+          src={image}
+          alt='project_image'
+          className='w-full h-full object-cover rounded-2xl'
+        />
 
-          {/* <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
+        {/* <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
               className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
@@ -46,14 +46,14 @@ const ProjectCard = ({
               />
             </div>
           </div> */}
-        </div>
+      </div>
 
-        <div className='mt-5'>
-          <h3 className='text-white font-bold text-[24px]'>{name}</h3>
-          <p className='mt-2 text-white text-[14px]'>{description}</p>
-        </div>
+      <div className='mt-5'>
+        <h3 className='text-white font-bold text-[24px]'>{name}</h3>
+        <p className='mt-2 text-white text-[14px]'>{description}</p>
+      </div>
 
-        {/* <div className='mt-4 flex flex-wrap gap-2'>
+      {/* <div className='mt-4 flex flex-wrap gap-2'>
           {tags.map((tag) => (
             <p
               // key={`${name}-${tag.name}`}
@@ -63,31 +63,31 @@ const ProjectCard = ({
             </p>
           ))}
         </div> */}
-        <div className='mt-4 my-auto flex flex-wrap gap-2'>
-          {tags.map((tag) => (
-            <p
-              key={`${name}-${tag.name}`}
-              // className={`inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2`}
-              className={`text-[14px] text-secondary`}
-            >
-              <span className='text-white'>#</span>{tag}
-            </p>
-          ))}
-            {/* <div className='absolute inset-0 flex justify-end card-img_hover'> */}
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className="block h-12 w-12 cursor-pointer ml-auto "
-              // className="absolute bottom-0 right-0 h-12 w-12 cursor-pointer"
-              // className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-            >
-              <img
-                src={github}
-                alt='source code'
-                className='w-1/2 h-1/2'
-              />
-            </div>
-          {/* </div> */}
+      <div className='mt-4 my-auto flex flex-wrap gap-2'>
+        {tags.map((tag) => (
+          <p
+            key={`${name}-${tag.name}`}
+            // className={`inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2`}
+            className={`text-[14px] text-secondary`}
+          >
+            <span className='text-white'>#</span>{tag}
+          </p>
+        ))}
+        {/* <div className='absolute inset-0 flex justify-end card-img_hover'> */}
+        <div
+          onClick={() => window.open(source_code_link, "_blank")}
+          className="block h-12 w-12 cursor-pointer ml-auto "
+        // className="absolute bottom-0 right-0 h-12 w-12 cursor-pointer"
+        // className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+        >
+          <img
+            src={github}
+            alt='source code'
+            className='w-1/2 h-1/2'
+          />
         </div>
+        {/* </div> */}
+      </div>
       {/* </Tilt> */}
     </motion.div>
   );
@@ -112,7 +112,7 @@ const Projects = () => {
           </motion.p>
         </div>
       </div>
- 
+
 
       <div className='mt-20 flex flex-wrap gap-7 backdrop-blur-sm'>
         {projects.map((project, index) => (

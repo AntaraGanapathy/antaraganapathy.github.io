@@ -21,7 +21,7 @@ const Home = () => {
               className={`${styles.headingText} text-white mt-1000`}
               sequence={[
                 "I am a developer",
-                2000, 
+                2000,
                 'I am a student',
                 2000,
                 'I am a something',

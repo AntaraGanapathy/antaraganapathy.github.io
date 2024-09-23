@@ -5,31 +5,31 @@ import { Home, StarsCanvas, Navbar, About, Projects, Research, Footer } from './
 const App = () => {
   return (
     <BrowserRouter>
-    <div className="relative bg-primary">
-      <div className="relative z-0">
-        <Navbar />
-        <Home />
-        <div className="bg-primary">
-        <About />
-        <Projects />
-        <Research />
-        <Footer />
+      <div className="relative bg-primary">
+        <div className="relative z-0">
+          <Navbar />
+          <Home />
+          <div className="bg-primary">
+            <About />
+            <Projects />
+            <Research />
+            <Footer />
+          </div>
+
+          <StarsCanvas />
         </div>
-        
-        <StarsCanvas />
-      </div>
-      {/* <About /> */}
-      {/* <About />
+        {/* <About /> */}
+        {/* <About />
       <Experience />
       <Tech />
       <Works />
       <Feedbacks /> */}
-      {/* <div className="relative z-0">
+        {/* <div className="relative z-0">
         <p> oedmoido2</p>
         <Contact />
         <StarsCanvas />
       </div> */}
-    </div>
+      </div>
     </BrowserRouter>
   )
 }
