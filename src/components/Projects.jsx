@@ -18,7 +18,7 @@ const ProjectCard = ({
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}
-    className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full card hover:shadow-[0_35px_60px_-15px_rgba(237, 228, 228,1)]'>
+    className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full card border border-primary hover:border-secondary '>
       {/* <Tilt
         options={{
           max: 45,
@@ -49,7 +49,7 @@ const ProjectCard = ({
         </div>
 
         <div className='mt-5'>
-          <h3 className='text-secondary font-bold text-[24px]'>{name}</h3>
+          <h3 className='text-white font-bold text-[24px]'>{name}</h3>
           <p className='mt-2 text-white text-[14px]'>{description}</p>
         </div>
 
@@ -112,7 +112,7 @@ const Projects = () => {
           </motion.p>
         </div>
       </div>
-
+ 
 
       <div className='mt-20 flex flex-wrap gap-7 backdrop-blur-sm'>
         {projects.map((project, index) => (

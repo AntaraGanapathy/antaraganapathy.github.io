@@ -195,12 +195,14 @@ import {
 
   const research = [
     {
-      name: "RAG Chatbot",
+      title: "Defining Evaluation Metrics for Medical Imaging Datasets",
+      journal: "Young Scientist Journal by Vanderbilt University",
+      date:"May 30th 2023",
       description:
-        "Web-app that allows the user to chat with a PDF. Developed using Pinecone and Langchain, the bot uses Retrieval-Augmented Generation to generate context-specific answers.",
-      tags: ['rag','ai-ml'],
-      image: chatbot,
-      source_code_link: "https://github.com/AntaraGanapathy/rag-chatbot",
+        "As society relies more on AI/ML in the medical field, it becomes imperative to get the dataset criteria right. This paper focuses on defining a metric to aid in the selection of a reliable medical imaging dataset.",
+      // tags: ['rag','ai-ml'],
+      // image: chatbot,
+      url: "https://wp0.vanderbilt.edu/youngscientistjournal/article/defining-evaluation-metrics-for-medical-imaging-datasets",
     },
   ];
   
