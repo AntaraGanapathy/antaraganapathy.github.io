@@ -22,7 +22,7 @@ const ResearchCard = ({
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">{title}</h5>
             </a> */}
             {/* <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">{description}</p> */}
-            <p className="mt-2 mb-3 text-secondary text-[16px] italic">{journal},      {date}</p>
+            <p className="mt-2 mb-3 text-secondary text-[16px] italic">{journal}<span className="text-white">, {date}</span></p>
             <p className="mt-2 mb-3 text-white text-[16px]">{description}</p>
             <a href={url} target="_blank" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-primary rounded-lg hover:bg-secondary focus:ring-4 focus:outline-none focus:ring-black ">
                 Read more
@@ -99,7 +99,7 @@ const Research = () => {
                     <h2 className={`${styles.sectionHeadText}`}>Research<span className='text-secondary'>.</span></h2>
                 </motion.div>
 
-                <div className='w-full flex'>
+                {/* <div className='w-full flex'>
                     <motion.p
                         variants={fadeIn("", "", 0.1, 1)}
                         className='mt-3 text-white text-[17px] max-w-3xl leading-[30px]'
@@ -107,7 +107,7 @@ const Research = () => {
 
                         The following research display my experience and experience with different programming languages and concepts.
                     </motion.p>
-                </div>
+                </div> */}
             </div>
 
             {/* <div className="flex justify-center mt-20 ">
