@@ -122,7 +122,7 @@ import {
     {
       name: "RAG Chatbot",
       description:
-        "Web-app that allows the user to chat with a PDF. Developed using Pinecone and Langchain, the bot uses Retrieval-Augmented Generation to generate context-specific answers",
+        "Web-app that allows the user to chat with a PDF. Developed using Pinecone and Langchain, the bot uses Retrieval-Augmented Generation to generate context-specific answers.",
       tags: ['rag','ai-ml'],
       image: chatbot,
       source_code_link: "https://github.com/AntaraGanapathy/rag-chatbot",
@@ -130,7 +130,7 @@ import {
     {
       name: "Glaucoma Detection",
       description:
-        "Machine learning model trained to diagnose glaucoma through eye scans. Trained with transfer learning, the performance of different pre-trained models were compared.",
+        "Machine learning model trained to diagnose glaucoma through eye scans. Trained with transfer learning, the performance of different pre-trained models were compared. Finalist (top 15 of ~ 200) at NDSC challenge.",
       tags: ['ai-ml','cnn','computer-vision'],
       image: jobit,
       source_code_link: "https://github.com/AntaraGanapathy/Glaucoma-Detection",
@@ -138,11 +138,70 @@ import {
     {
       name: "Sentiment Analysis",
       description:
-        "Model trained, with Natural Language Processing, to analyze the sentiment of news headlines. The models was evaluated against news headlines scraped from CNN's opinion column",
+        "Model trained, with Natural Language Processing, to analyze the sentiment of news headlines. The models was evaluated against news headlines scraped from CNN's opinion column.",
+      tags: ['web-scraping','nlp','ai-ml'],
+      image: tripguide,
+      source_code_link: "https://github.com/AntaraGanapathy/Sentiment-Analysis",
+    },
+    {
+      name: "Budgetary",
+      description:
+        "Model trained, with Natural Language Processing, to analyze the sentiment of news headlines. The models was evaluated against news headlines scraped from CNN's opinion column.",
+      tags: ['web-scraping','nlp','ai-ml'],
+      image: tripguide,
+      source_code_link: "https://github.com/AntaraGanapathy/Sentiment-Analysis",
+    },
+    {
+      name: "Diabetic Retinopathy",
+      description:
+        "Model trained, with Natural Language Processing, to analyze the sentiment of news headlines. The models was evaluated against news headlines scraped from CNN's opinion column.",
+      tags: ['web-scraping','nlp','ai-ml'],
+      image: tripguide,
+      source_code_link: "https://github.com/AntaraGanapathy/Sentiment-Analysis",
+    },
+    {
+      name: "Pneumonia Detection",
+      description:
+        "Model trained, with Natural Language Processing, to analyze the sentiment of news headlines. The models was evaluated against news headlines scraped from CNN's opinion column.",
+      tags: ['web-scraping','nlp','ai-ml'],
+      image: tripguide,
+      source_code_link: "https://github.com/AntaraGanapathy/Sentiment-Analysis",
+    },
+    {
+      name: "IPCC Dataset Analysis",
+      description:
+        "Model trained, with Natural Language Processing, to analyze the sentiment of news headlines. The models was evaluated against news headlines scraped from CNN's opinion column.",
+      tags: ['web-scraping','nlp','ai-ml'],
+      image: tripguide,
+      source_code_link: "https://github.com/AntaraGanapathy/Sentiment-Analysis",
+    },
+    {
+      name: "Fake News Detection",
+      description:
+        "Model trained, with Natural Language Processing, to analyze the sentiment of news headlines. The models was evaluated against news headlines scraped from CNN's opinion column.",
+      tags: ['web-scraping','nlp','ai-ml'],
+      image: tripguide,
+      source_code_link: "https://github.com/AntaraGanapathy/Sentiment-Analysis",
+    },
+    {
+      name: "Portfolio",
+      description:
+        "Model trained, with Natural Language Processing, to analyze the sentiment of news headlines. The models was evaluated against news headlines scraped from CNN's opinion column.",
       tags: ['web-scraping','nlp','ai-ml'],
       image: tripguide,
       source_code_link: "https://github.com/AntaraGanapathy/Sentiment-Analysis",
     },
   ];
+
+  const research = [
+    {
+      name: "RAG Chatbot",
+      description:
+        "Web-app that allows the user to chat with a PDF. Developed using Pinecone and Langchain, the bot uses Retrieval-Augmented Generation to generate context-specific answers.",
+      tags: ['rag','ai-ml'],
+      image: chatbot,
+      source_code_link: "https://github.com/AntaraGanapathy/rag-chatbot",
+    },
+  ];
   
-  export { projects };
+  export { projects, research };

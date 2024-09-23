@@ -3,6 +3,8 @@ import Home from "./Home";
 import Navbar from "./Navbar";
 import About from "./About";
 import Projects from "./Projects";
+import Research from "./Research";
+
 
 
 export {
@@ -10,5 +12,6 @@ export {
   StarsCanvas,
   Navbar,
   About,
-  Projects
+  Projects,
+  Research
 };

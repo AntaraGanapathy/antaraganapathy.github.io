@@ -5,10 +5,10 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
-import { projects } from "../constants";
+import { research } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 
-const ProjectCard = ({
+const ResearchCard = ({
   index,
   name,
   description,
@@ -93,13 +93,13 @@ const ProjectCard = ({
   );
 };
 
-const Projects = () => {
+const Research = () => {
   return (
     <>
       {/* <div className='backdrop-blur-sm'> */}
       <div>
         <motion.div variants={textVariant()}>
-          <h2 className={`${styles.sectionHeadText}`}>Projects<span className='text-secondary'>.</span></h2>
+          <h2 className={`${styles.sectionHeadText}`}>Research<span className='text-secondary'>.</span></h2>
         </motion.div>
 
         <div className='w-full flex'>
@@ -108,19 +108,19 @@ const Projects = () => {
             className='mt-3 text-white text-[17px] max-w-3xl leading-[30px]'
           >
 
-            The following projects display my experience and experience with different programming languages and concepts.
+            The following research display my experience and experience with different programming languages and concepts.
           </motion.p>
         </div>
       </div>
 
 
       <div className='mt-20 flex flex-wrap gap-7 backdrop-blur-sm'>
-        {projects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
+        {research.map((research, index) => (
+          <ResearchCard key={`project-${index}`} index={index} {...research} />
         ))}
       </div>
     </>
   );
 };
 
-export default SectionWrapper(Projects, "projects");
+export default SectionWrapper(Research, "research");
