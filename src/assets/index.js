@@ -8,6 +8,11 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import chatbot from "./chatbot.jpg";
+import ipcc from "./ipcc.jpg";
+import news from "./news.jpg";
+import pneumonia from "./pneumonia.webp";
+
+
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -34,6 +39,9 @@ import tripguide from "./tripguide.png";
 
 export {
   logo,
+  ipcc,
+  news,
+  pneumonia,
   chatbot,
   code,
   backend,

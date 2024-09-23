@@ -5,6 +5,8 @@ import About from "./About";
 import Projects from "./Projects";
 import Research from "./Research";
 import Footer from "./Footer";
+import CV from "./CV";
+
 
 
 
@@ -16,5 +18,6 @@ export {
   About,
   Projects,
   Research,
-  Footer
+  Footer,
+  CV
 };

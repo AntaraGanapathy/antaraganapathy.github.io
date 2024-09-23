@@ -15,7 +15,7 @@ const Home = () => {
         </div> */}
 
         <div className=' block space-y-28'>
-          <div><h1 className={`${styles.headingText} text-white backdrop-blur-sm`}>Hi! My name is <span className='text-[#21D19F]'>Antara</span></h1></div>
+          <div><h1 className={`${styles.headingText}text-white backdrop-blur-sm`}>Hi! My name is <span className='text-[#21D19F]'>Antara</span></h1></div>
           <div className='backdrop-blur-sm'>
             <TypeAnimation
               className={`${styles.headingText} text-white mt-1000`}

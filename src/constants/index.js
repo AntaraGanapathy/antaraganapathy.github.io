@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   chatbot,
+  ipcc,
+  news,
+  pneumonia
   // threejs,
 } from "../assets";
 
@@ -38,6 +41,10 @@ export const navLinks = [
   {
     id: "research",
     title: "Research",
+  },
+  {
+    id: "cv",
+    title: "CV",
   },
 ];
 
@@ -164,7 +171,7 @@ const projects = [
     description:
       "Model trained, with Natural Language Processing, to analyze the sentiment of news headlines. The models was evaluated against news headlines scraped from CNN's opinion column.",
     tags: ['web-scraping', 'nlp', 'ai-ml'],
-    image: tripguide,
+    image: pneumonia,
     source_code_link: "https://github.com/AntaraGanapathy/Sentiment-Analysis",
   },
   {
@@ -172,7 +179,7 @@ const projects = [
     description:
       "Model trained, with Natural Language Processing, to analyze the sentiment of news headlines. The models was evaluated against news headlines scraped from CNN's opinion column.",
     tags: ['web-scraping', 'nlp', 'ai-ml'],
-    image: tripguide,
+    image: ipcc,
     source_code_link: "https://github.com/AntaraGanapathy/Sentiment-Analysis",
   },
   {
@@ -180,7 +187,7 @@ const projects = [
     description:
       "Model trained, with Natural Language Processing, to analyze the sentiment of news headlines. The models was evaluated against news headlines scraped from CNN's opinion column.",
     tags: ['web-scraping', 'nlp', 'ai-ml'],
-    image: tripguide,
+    image: news,
     source_code_link: "https://github.com/AntaraGanapathy/Sentiment-Analysis",
   },
   {
