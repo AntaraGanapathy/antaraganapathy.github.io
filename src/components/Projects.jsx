@@ -74,7 +74,7 @@ const ProjectCard = ({
           </p>
         ))}
         {/* <div className='absolute inset-0 flex justify-end card-img_hover'> */}
-        <div
+        {/* <div
           onClick={() => window.open(source_code_link, "_blank")}
           className="block h-12 w-12 cursor-pointer ml-auto "
         // className="absolute bottom-0 right-0 h-12 w-12 cursor-pointer"
@@ -85,7 +85,19 @@ const ProjectCard = ({
             alt='source code'
             className='w-1/2 h-1/2'
           />
-        </div>
+        </div> */}
+        <a
+          href={source_code_link}
+          className="block h-12 w-12 cursor-pointer ml-auto "
+        // className="absolute bottom-0 right-0 h-12 w-12 cursor-pointer"
+        // className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+        >
+          <img
+            src={github}
+            alt='source code'
+            className='w-1/2 h-1/2'
+          />
+        </a>
         {/* </div> */}
       </div>
       {/* </Tilt> */}

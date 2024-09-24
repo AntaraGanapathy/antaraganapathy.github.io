@@ -31,7 +31,6 @@ import {
   glaucoma,
   sentiment,
   budgetary
-  // threejs,
 } from "../assets";
 
 export const navLinks = [
@@ -49,83 +48,6 @@ export const navLinks = [
   },
 ];
 
-// const services = [
-//   {
-//     title: "Web Developer",
-//     icon: web,
-//   },
-//   {
-//     title: "React Native Developer",
-//     icon: mobile,
-//   },
-//   {
-//     title: "Backend Developer",
-//     icon: backend,
-//   },
-//   {
-//     title: "Content Creator",
-//     icon: creator,
-//   },
-// ];
-
-
-
-// const experiences = [
-//   {
-//     title: "React.js Developer",
-//     company_name: "Starbucks",
-//     icon: starbucks,
-//     iconBg: "#383E56",
-//     date: "March 2020 - April 2021",
-//     points: [
-//       "Developing and maintaining web applications using React.js and other related technologies.",
-//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-//       "Implementing responsive design and ensuring cross-browser compatibility.",
-//       "Participating in code reviews and providing constructive feedback to other developers.",
-//     ],
-//   },
-//   {
-//     title: "React Native Developer",
-//     company_name: "Tesla",
-//     icon: tesla,
-//     iconBg: "#E6DEDD",
-//     date: "Jan 2021 - Feb 2022",
-//     points: [
-//       "Developing and maintaining web applications using React.js and other related technologies.",
-//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-//       "Implementing responsive design and ensuring cross-browser compatibility.",
-//       "Participating in code reviews and providing constructive feedback to other developers.",
-//     ],
-//   },
-//   {
-//     title: "Web Developer",
-//     company_name: "Shopify",
-//     icon: shopify,
-//     iconBg: "#383E56",
-//     date: "Jan 2022 - Jan 2023",
-//     points: [
-//       "Developing and maintaining web applications using React.js and other related technologies.",
-//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-//       "Implementing responsive design and ensuring cross-browser compatibility.",
-//       "Participating in code reviews and providing constructive feedback to other developers.",
-//     ],
-//   },
-//   {
-//     title: "Full stack Developer",
-//     company_name: "Meta",
-//     icon: meta,
-//     iconBg: "#E6DEDD",
-//     date: "Jan 2023 - Present",
-//     points: [
-//       "Developing and maintaining web applications using React.js and other related technologies.",
-//       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-//       "Implementing responsive design and ensuring cross-browser compatibility.",
-//       "Participating in code reviews and providing constructive feedback to other developers.",
-//     ],
-//   },
-// ];
-
-
 const projects = [
   {
     name: "RAG Chatbot",
@@ -138,7 +60,7 @@ const projects = [
   {
     name: "Glaucoma Detection",
     description:
-      "Machine learning model trained to diagnose glaucoma through eye scans. Trained with transfer learning, the performance of different pre-trained models were compared. Finalist (top 15 of ~ 200) at NDSC challenge.",
+      "Machine learning model that diagnoses glaucoma in eye scans. Trained with transfer learning, the performance of different pre-trained models were compared. Finalist (top 15 of ~ 200) at NDSC challenge.",
     tags: ['ai-ml', 'cnn', 'computer-vision'],
     image: glaucoma,
     source_code_link: "https://github.com/AntaraGanapathy/Glaucoma-Detection",
@@ -153,51 +75,51 @@ const projects = [
   },
   {
     name: "Budgetary",
-    description:
-      "Model trained, with Natural Language Processing, to analyze the sentiment of news headlines. The models was evaluated against news headlines scraped from CNN's opinion column.",
-    tags: ['web-scraping', 'nlp', 'ai-ml'],
+    description:    
+      "Web-app that aims at increasing financial literacy amongst school-going students. With the use of interactive activities, students are motivated to build the right saving habits early on.",
+    tags: ['python-flask', 'web-dev', 'db'],
     image: budgetary,
-    source_code_link: "https://github.com/AntaraGanapathy/Sentiment-Analysis",
+    source_code_link: "https://github.com/AntaraGanapathy/budgetary-flask",
   },
   {
     name: "Diabetic Retinopathy",
     description:
-      "Model trained, with Natural Language Processing, to analyze the sentiment of news headlines. The models was evaluated against news headlines scraped from CNN's opinion column.",
-    tags: ['web-scraping', 'nlp', 'ai-ml'],
+      "Machine learning model trained on IDRiD dataset to diagnose diabetic retinopathy and the risk of macular edema. Transfer learning and image pre-prcoessing technqiues were implemented for accuracy.",
+    tags: ['ai-ml', 'cnn', 'computer-vision'],
     image: diabetic,
-    source_code_link: "https://github.com/AntaraGanapathy/Sentiment-Analysis",
+    source_code_link: "https://github.com/AntaraGanapathy/Diabetic-Retinopathy-Detection/tree/main",
   },
   {
     name: "Pneumonia Detection",
     description:
-      "Model trained, with Natural Language Processing, to analyze the sentiment of news headlines. The models was evaluated against news headlines scraped from CNN's opinion column.",
-    tags: ['web-scraping', 'nlp', 'ai-ml'],
+      "Model trained to diagnose pneumonia in children under the age of 5 through chest x-ray scans. Implemented a Convolution Neural Network to train the model and achieved an accuracy of 96.6%.",
+    tags: ['cnn', 'computer-vision', 'ai-ml'],
     image: pneumonia,
-    source_code_link: "https://github.com/AntaraGanapathy/Sentiment-Analysis",
+    source_code_link: "https://github.com/AntaraGanapathy/Pneumonia-Detection",
   },
   {
     name: "IPCC Dataset Analysis",
     description:
-      "Model trained, with Natural Language Processing, to analyze the sentiment of news headlines. The models was evaluated against news headlines scraped from CNN's opinion column.",
-    tags: ['web-scraping', 'nlp', 'ai-ml'],
+      "Analyzed the Intergovernmental Panel on Climate Change (IPCC) dataset to find key drivers of climate change. Used Pandas and Matplotlib to identify countries with similar CO2 emissions to determine global trends.",
+    tags: ['data-science', 'python'],
     image: ipcc,
-    source_code_link: "https://github.com/AntaraGanapathy/Sentiment-Analysis",
+    source_code_link: "https://github.com/AntaraGanapathy/IPCC-Dataset-Analysis",
   },
   {
     name: "Fake News Detection",
     description:
-      "Model trained, with Natural Language Processing, to analyze the sentiment of news headlines. The models was evaluated against news headlines scraped from CNN's opinion column.",
-    tags: ['web-scraping', 'nlp', 'ai-ml'],
+      "Model trained, with Natural Language Processing, detect fake news. Techniques such as TF-IDF Vectorizer and Multinomial Naive Bayes Classifier were used to extract features of news articles.",
+    tags: ['nlp', 'ai-ml'],
     image: news,
-    source_code_link: "https://github.com/AntaraGanapathy/Sentiment-Analysis",
+    source_code_link: "https://github.com/AntaraGanapathy/Fake-News-Detection",
   },
   {
     name: "Portfolio",
     description:
-      "Model trained, with Natural Language Processing, to analyze the sentiment of news headlines. The models was evaluated against news headlines scraped from CNN's opinion column.",
-    tags: ['web-scraping', 'nlp', 'ai-ml'],
+      "Website to display my experiences over the years. Developed with ReactJS and Tailwind, the website is expected to provide an in-depth depiction of my computer science skills and knowledge.",
+    tags: ['web-dev', 'react', 'tailwind'],
     image: portfolio,
-    source_code_link: "https://github.com/AntaraGanapathy/Sentiment-Analysis",
+    source_code_link: "https://github.com/AntaraGanapathy/antaraganapathy.github.io",
   },
 ];
 
