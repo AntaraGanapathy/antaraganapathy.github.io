@@ -6,10 +6,6 @@ import Projects from "./Projects";
 import Research from "./Research";
 import Footer from "./Footer";
 
-
-
-
-
 export {
   Home,
   StarsCanvas,

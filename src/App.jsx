@@ -15,20 +15,7 @@ const App = () => {
             <Research />
             <Footer />
           </div>
-
-          {/* <StarsCanvas /> */}
         </div>
-        {/* <About /> */}
-        {/* <About />
-      <Experience />
-      <Tech />
-      <Works />
-      <Feedbacks /> */}
-        {/* <div className="relative z-0">
-        <p> oedmoido2</p>
-        <Contact />
-        <StarsCanvas />
-      </div> */}
       </div>
     </BrowserRouter>
   )

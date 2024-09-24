@@ -9,9 +9,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 const About = () => {
   return (
     <div>
-      {/* // <div className='backdrop-blur-sm'> */}
       <motion.div variants={textVariant()}>
-        {/* <p className={styles.sectionSubText}>Introduction</p> */}
         <h2 className={styles.sectionHeadText}>Introduction<span className='text-secondary'>.</span></h2>
       </motion.div>
 

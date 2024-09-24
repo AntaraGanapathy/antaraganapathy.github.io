@@ -1,27 +1,4 @@
 import {
-  // mobile,
-  // backend,
-  // creator,
-  // web,
-  // javascript,
-  // typescript,
-  // html,
-  // css,
-  // reactjs,
-  // redux,
-  // tailwind,
-  // nodejs,
-  // mongodb,
-  // git,
-  // figma,
-  // docker,
-  // meta,
-  // starbucks,
-  // tesla,
-  // shopify,
-  carrent,
-  jobit,
-  tripguide,
   chatbot,
   ipcc,
   news,
@@ -75,7 +52,7 @@ const projects = [
   },
   {
     name: "Budgetary",
-    description:    
+    description:
       "Web-app that aims at increasing financial literacy amongst school-going students. With the use of interactive activities, students are motivated to build the right saving habits early on.",
     tags: ['python-flask', 'web-dev', 'db'],
     image: budgetary,
@@ -130,8 +107,6 @@ const research = [
     date: "May 30th 2023",
     description:
       "As society relies more on AI/ML in the medical field, it becomes imperative to get the dataset criteria right. This paper focuses on defining a metric to aid in the selection of a reliable medical imaging dataset.",
-    // tags: ['rag','ai-ml'],
-    // image: chatbot,
     url: "https://wp0.vanderbilt.edu/youngscientistjournal/article/defining-evaluation-metrics-for-medical-imaging-datasets",
   },
 ];

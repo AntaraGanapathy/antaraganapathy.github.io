@@ -38,7 +38,6 @@ const Navbar = () => {
         >
           <img src={code} alt='code' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
-            {/* <span className='sm:block hidden'> "dkwd" </span> */}
             Antara &nbsp;
             <span className='sm:block hidden'> Ganapathy</span>
           </p>

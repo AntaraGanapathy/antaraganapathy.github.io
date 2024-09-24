@@ -1,7 +1,5 @@
 import React from "react";
-// import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
-
 import { styles } from "../styles";
 import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
@@ -19,33 +17,12 @@ const ProjectCard = ({
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}
       className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full card border border-primary hover:border-secondary '>
-      {/* <Tilt
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full bg-gray'
-      > */}
       <div className='relative w-full h-[230px]'>
         <img
           src={image}
           alt='project_image'
           className='w-full h-full object-cover rounded-2xl'
         />
-
-        {/* <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-            >
-              <img
-                src={github}
-                alt='source code'
-                className='w-1/2 h-1/2'
-              />
-            </div>
-          </div> */}
       </div>
 
       <div className='mt-5'>
@@ -53,44 +30,19 @@ const ProjectCard = ({
         <p className='mt-2 text-white text-[14px]'>{description}</p>
       </div>
 
-      {/* <div className='mt-4 flex flex-wrap gap-2'>
-          {tags.map((tag) => (
-            <p
-              // key={`${name}-${tag.name}`}
-              className={`text-[14px] ${tag.color}`}
-            >
-              #{tag.name}
-            </p>
-          ))}
-        </div> */}
       <div className='mt-4 my-auto flex flex-wrap gap-2'>
         {tags.map((tag) => (
           <p
             key={`${name}-${tag.name}`}
-            // className={`inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2`}
             className={`text-[14px] text-secondary`}
           >
             <span className='text-white'>#</span>{tag}
           </p>
         ))}
-        {/* <div className='absolute inset-0 flex justify-end card-img_hover'> */}
-        {/* <div
-          onClick={() => window.open(source_code_link, "_blank")}
-          className="block h-12 w-12 cursor-pointer ml-auto "
-        // className="absolute bottom-0 right-0 h-12 w-12 cursor-pointer"
-        // className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-        >
-          <img
-            src={github}
-            alt='source code'
-            className='w-1/2 h-1/2'
-          />
-        </div> */}
+
         <a
           href={source_code_link}
           className="block h-12 w-12 cursor-pointer ml-auto "
-        // className="absolute bottom-0 right-0 h-12 w-12 cursor-pointer"
-        // className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
         >
           <img
             src={github}
@@ -98,9 +50,7 @@ const ProjectCard = ({
             className='w-1/2 h-1/2'
           />
         </a>
-        {/* </div> */}
       </div>
-      {/* </Tilt> */}
     </motion.div>
   );
 };
@@ -108,7 +58,6 @@ const ProjectCard = ({
 const Projects = () => {
   return (
     <>
-      {/* <div className='backdrop-blur-sm'> */}
       <div>
         <motion.div variants={textVariant()}>
           <h2 className={`${styles.sectionHeadText}`}>Projects<span className='text-secondary'>.</span></h2>
