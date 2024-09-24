@@ -11,7 +11,11 @@ import chatbot from "./chatbot.jpg";
 import ipcc from "./ipcc.jpg";
 import news from "./news.jpg";
 import pneumonia from "./pneumonia.webp";
-
+import glaucoma from "./glaucoma.jpg";
+import sentiment from "./sentiment.webp";
+import budgetary from "./budgetary.jpg";
+import diabetic from "./diabetic.jpg";
+import portfolio from "./portfolio.png";
 
 
 import css from "./tech/css.png";
@@ -40,6 +44,11 @@ import tripguide from "./tripguide.png";
 export {
   logo,
   ipcc,
+  glaucoma,
+  sentiment,
+  budgetary,
+  diabetic,
+  portfolio,
   news,
   pneumonia,
   chatbot,

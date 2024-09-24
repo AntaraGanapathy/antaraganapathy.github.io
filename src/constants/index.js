@@ -25,7 +25,12 @@ import {
   chatbot,
   ipcc,
   news,
-  pneumonia
+  diabetic,
+  portfolio,
+  pneumonia,
+  glaucoma,
+  sentiment,
+  budgetary
   // threejs,
 } from "../assets";
 
@@ -41,10 +46,6 @@ export const navLinks = [
   {
     id: "research",
     title: "Research",
-  },
-  {
-    id: "cv",
-    title: "CV",
   },
 ];
 
@@ -139,7 +140,7 @@ const projects = [
     description:
       "Machine learning model trained to diagnose glaucoma through eye scans. Trained with transfer learning, the performance of different pre-trained models were compared. Finalist (top 15 of ~ 200) at NDSC challenge.",
     tags: ['ai-ml', 'cnn', 'computer-vision'],
-    image: jobit,
+    image: glaucoma,
     source_code_link: "https://github.com/AntaraGanapathy/Glaucoma-Detection",
   },
   {
@@ -147,7 +148,7 @@ const projects = [
     description:
       "Model trained, with Natural Language Processing, to analyze the sentiment of news headlines. The models was evaluated against news headlines scraped from CNN's opinion column.",
     tags: ['web-scraping', 'nlp', 'ai-ml'],
-    image: tripguide,
+    image: sentiment,
     source_code_link: "https://github.com/AntaraGanapathy/Sentiment-Analysis",
   },
   {
@@ -155,7 +156,7 @@ const projects = [
     description:
       "Model trained, with Natural Language Processing, to analyze the sentiment of news headlines. The models was evaluated against news headlines scraped from CNN's opinion column.",
     tags: ['web-scraping', 'nlp', 'ai-ml'],
-    image: tripguide,
+    image: budgetary,
     source_code_link: "https://github.com/AntaraGanapathy/Sentiment-Analysis",
   },
   {
@@ -163,7 +164,7 @@ const projects = [
     description:
       "Model trained, with Natural Language Processing, to analyze the sentiment of news headlines. The models was evaluated against news headlines scraped from CNN's opinion column.",
     tags: ['web-scraping', 'nlp', 'ai-ml'],
-    image: tripguide,
+    image: diabetic,
     source_code_link: "https://github.com/AntaraGanapathy/Sentiment-Analysis",
   },
   {
@@ -195,7 +196,7 @@ const projects = [
     description:
       "Model trained, with Natural Language Processing, to analyze the sentiment of news headlines. The models was evaluated against news headlines scraped from CNN's opinion column.",
     tags: ['web-scraping', 'nlp', 'ai-ml'],
-    image: tripguide,
+    image: portfolio,
     source_code_link: "https://github.com/AntaraGanapathy/Sentiment-Analysis",
   },
 ];

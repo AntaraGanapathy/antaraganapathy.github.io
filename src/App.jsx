@@ -16,7 +16,7 @@ const App = () => {
             <Footer />
           </div>
 
-          <StarsCanvas />
+          {/* <StarsCanvas /> */}
         </div>
         {/* <About /> */}
         {/* <About />
