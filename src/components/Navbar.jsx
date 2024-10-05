@@ -54,6 +54,9 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <li key="cv" className={`font-poppins font-medium cursor-pointer text-[16px]`} >
+            <a href='src/assets/Antara Ganapathy - CV.pdf' target='_blank' rel='noopener noreferrer'>CV</a>
+          </li>
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
@@ -82,6 +85,9 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              <li key="cv" className={`font-poppins font-medium cursor-pointer text-[16px]`} >
+                <a href='src/assets/Antara Ganapathy - CV.pdf' target='_blank' rel='noopener noreferrer'>CV</a>
+              </li>
             </ul>
           </div>
         </div>
