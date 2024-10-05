@@ -7,7 +7,7 @@ import chatbot from "./chatbot.jpg";
 import ipcc from "./ipcc.jpg";
 import news from "./news.jpg";
 import pneumonia from "./pneumonia.webp";
-import glaucoma from "./glaucoma.jpg";
+import glaucoma from "./glaucoma.png";
 import sentiment from "./sentiment.webp";
 import budgetary from "./budgetary.jpg";
 import diabetic from "./diabetic.jpg";

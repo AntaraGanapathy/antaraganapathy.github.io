@@ -51,20 +51,20 @@ const projects = [
     source_code_link: "https://github.com/AntaraGanapathy/Sentiment-Analysis",
   },
   {
-    name: "Budgetary",
-    description:
-      "Web-app that aims at increasing financial literacy amongst school-going students. With the use of interactive activities, students are motivated to build the right saving habits early on.",
-    tags: ['python-flask', 'web-dev', 'db'],
-    image: budgetary,
-    source_code_link: "https://github.com/AntaraGanapathy/budgetary-flask",
-  },
-  {
     name: "Diabetic Retinopathy",
     description:
       "Machine learning model trained on IDRiD dataset to diagnose diabetic retinopathy and the risk of macular edema. Transfer learning and image pre-prcoessing technqiues were implemented for accuracy.",
     tags: ['ai-ml', 'cnn', 'computer-vision'],
     image: diabetic,
     source_code_link: "https://github.com/AntaraGanapathy/Diabetic-Retinopathy-Detection/tree/main",
+  },
+  {
+    name: "Budgetary",
+    description:
+      "Web-app that aims at increasing financial literacy amongst school-going students. With the use of interactive activities, students are motivated to build the right saving habits early on.",
+    tags: ['python-flask', 'web-dev', 'db'],
+    image: budgetary,
+    source_code_link: "https://github.com/AntaraGanapathy/budgetary-flask",
   },
   {
     name: "Pneumonia Detection",

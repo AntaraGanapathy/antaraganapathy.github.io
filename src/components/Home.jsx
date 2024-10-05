@@ -10,14 +10,15 @@ const Home = () => {
         <div className=' block space-y-28'>
           <div><h1 className={`${styles.headingText}text-white backdrop-blur-sm`}>Hi! My name is <span className='text-[#21D19F]'>Antara</span></h1></div>
           <div className='backdrop-blur-sm'>
+            <span className={`${styles.headingText} text-white mt-1000`}>I am a </span>
             <TypeAnimation
-              className={`${styles.headingText} text-white mt-1000`}
+              className={`font-black text-secondary lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[40px] lg:leading-[98px]`}
               sequence={[
-                "I am a developer",
+                "developer",
                 2000,
-                'I am a student',
+                'student',
                 2000,
-                'I am a something',
+                'tech enthusiast',
                 2000,
               ]}
               wrapper="span"
