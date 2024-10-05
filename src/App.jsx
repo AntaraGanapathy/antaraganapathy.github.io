@@ -1,10 +1,10 @@
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 import { Home, Navbar, About, Projects, Research, Footer } from './components';
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="relative bg-primary">
         <div className="relative z-0">
           <Navbar />
@@ -17,7 +17,7 @@ const App = () => {
           </div>
         </div>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
