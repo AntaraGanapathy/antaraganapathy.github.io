@@ -55,7 +55,7 @@ const Navbar = () => {
             </li>
           ))}
           <li key="cv" className={`font-poppins font-medium cursor-pointer text-[16px]`} >
-            <a href='./src/assets/Antara Ganapathy - CV.pdf' target='_blank' rel='noopener noreferrer'>CV</a>
+            <a href='https://antaraganapathy.github.io/CV.pdf' target='_blank' rel='noopener noreferrer'>CV</a>
           </li>
         </ul>
 
@@ -85,7 +85,7 @@ const Navbar = () => {
                 </li>
               ))}
               <li key="cv" className={`font-poppins font-medium cursor-pointer text-[16px] text-white hover:text-secondary`} >
-                <a href='./src/assets/Antara Ganapathy - CV.pdf' target='_blank' rel='noopener noreferrer'>CV</a>
+                <a href='https://antaraganapathy.github.io/CV.pdf' target='_blank' rel='noopener noreferrer'>CV</a>
               </li>
             </ul>
           </div>
