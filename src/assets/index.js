@@ -12,6 +12,7 @@ import sentiment from "./sentiment.webp";
 import budgetary from "./budgetary.jpg";
 import diabetic from "./diabetic.jpg";
 import portfolio from "./portfolio.png";
+import cv from "./CV.pdf";
 
 
 export {
@@ -29,4 +30,5 @@ export {
   github,
   menu,
   close,
+  cv
 };
