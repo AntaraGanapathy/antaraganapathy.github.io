@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { code, menu, close } from "../assets";
+import { code, menu, close, cv } from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -55,7 +55,7 @@ const Navbar = () => {
             </li>
           ))}
           <li key="cv" className={`font-poppins font-medium cursor-pointer text-[16px]`} >
-            <a href="https://drive.google.com/file/d/1ZzC4vxMtgZ58Yfm30Qjb3roT3LvN9Yvq/view?usp=sharing" target='_blank' rel='noopener noreferrer'>CV</a>
+            <a href={cv} target='_blank' rel='noopener noreferrer'>CV</a>
           </li>
         </ul>
 
@@ -85,7 +85,7 @@ const Navbar = () => {
                 </li>
               ))}
               <li key="cv" className={`font-poppins font-medium cursor-pointer text-[16px] text-white hover:text-secondary`} >
-                <a href="https://drive.google.com/file/d/1ZzC4vxMtgZ58Yfm30Qjb3roT3LvN9Yvq/view?usp=sharing" target='_blank' rel='noopener noreferrer'>CV</a>
+                <a href={cv} target='_blank' rel='noopener noreferrer'>CV</a>
               </li>
             </ul>
           </div>
