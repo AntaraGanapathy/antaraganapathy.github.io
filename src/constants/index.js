@@ -7,7 +7,8 @@ import {
   pneumonia,
   glaucoma,
   sentiment,
-  budgetary
+  budgetary,
+  pathmatch
 } from "../assets";
 
 export const navLinks = [
@@ -26,6 +27,14 @@ export const navLinks = [
 ];
 
 const projects = [
+  {
+    name: "PathMatch",
+    description:
+      "Web-app designed to improve the mentor registration process and matching algorithm for MCR Pathways. Team submission for Code for Good Hackathon held by JPMorganChase",
+    tags: ['django', 'react', 'tailwind', 'ai-ml'],
+    image: pathmatch,
+    source_code_link: "https://github.com/cfgglasgow25/Team-1",
+  },
   {
     name: "RAG Chatbot",
     description:
