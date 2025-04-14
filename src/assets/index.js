@@ -13,6 +13,7 @@ import budgetary from "./budgetary.jpg";
 import diabetic from "./diabetic.jpg";
 import portfolio from "./portfolio.png";
 import pathmatch from "./pathmatch.png";
+import dishitout from "./dishitout.png";
 import cv from "./cv.pdf";
 
 
@@ -32,5 +33,6 @@ export {
   menu,
   close,
   pathmatch,
+  dishitout,
   cv,
 };

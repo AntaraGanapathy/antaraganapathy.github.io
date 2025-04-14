@@ -8,7 +8,8 @@ import {
   glaucoma,
   sentiment,
   budgetary,
-  pathmatch
+  pathmatch,
+  dishitout,
 } from "../assets";
 
 export const navLinks = [
@@ -34,6 +35,14 @@ const projects = [
     tags: ['django', 'react', 'tailwind', 'ai-ml'],
     image: pathmatch,
     source_code_link: "https://github.com/cfgglasgow25/Team-1",
+  },
+  {
+    name: "Dish-it-Out",
+    description:
+      "Dish-it-Out is a smart grocery and kitchen management app made for people living in shared spaces. Includes features such as cost splitter, fridge manager, calendar system, chats between flatmates and an AI chatbot.",
+    tags: ['react', 'tailwind', 'ai-ml'],
+    image: dishitout,
+    source_code_link: "https://github.com/AntaraGanapathy/COMP10120-X14",
   },
   {
     name: "RAG Chatbot",
@@ -71,7 +80,7 @@ const projects = [
     name: "Budgetary",
     description:
       "Web-app that aims at increasing financial literacy amongst school-going students. With the use of interactive activities, students are motivated to build the right saving habits early on.",
-    tags: ['python-flask', 'web-dev', 'db'],
+    tags: ['python-flask', 'web-dev', 'sql'],
     image: budgetary,
     source_code_link: "https://github.com/AntaraGanapathy/budgetary-flask",
   },
