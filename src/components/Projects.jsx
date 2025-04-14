@@ -42,6 +42,7 @@ const ProjectCard = ({
 
         <a
           href={source_code_link}
+          target="_blank"
           className="block h-12 w-12 cursor-pointer ml-auto "
         >
           <img
