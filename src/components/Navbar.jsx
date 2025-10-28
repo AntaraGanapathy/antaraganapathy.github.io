@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { code, menu, close, cv } from "../assets";
+import { code, menu, close} from "../assets";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -54,9 +54,9 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
-          <li key="cv" className={`font-poppins font-medium cursor-pointer text-[16px]`} >
+          {/* <li key="cv" className={`font-poppins font-medium cursor-pointer text-[16px]`} >
             <a href={cv} target='_blank' rel='noopener noreferrer'>CV</a>
-          </li>
+          </li> */}
         </ul>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
@@ -84,9 +84,9 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
-              <li key="cv" className={`font-poppins font-medium cursor-pointer text-[16px] text-white hover:text-secondary`} >
+              {/* <li key="cv" className={`font-poppins font-medium cursor-pointer text-[16px] text-white hover:text-secondary`} >
                 <a href={cv} target='_blank' rel='noopener noreferrer'>CV</a>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

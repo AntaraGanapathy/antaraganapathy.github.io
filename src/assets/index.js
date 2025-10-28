@@ -14,7 +14,6 @@ import diabetic from "./diabetic.jpg";
 import portfolio from "./portfolio.png";
 import pathmatch from "./pathmatch.png";
 import dishitout from "./dishitout.png";
-import cv from "./cv.pdf";
 
 
 export {
@@ -34,5 +33,4 @@ export {
   close,
   pathmatch,
   dishitout,
-  cv,
 };
