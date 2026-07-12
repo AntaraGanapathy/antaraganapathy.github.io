@@ -203,3 +203,29 @@
       -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #ffffff;
   }
 }
+
+/* Vertical Timeline overrides */
+.vertical-timeline::before {
+  background: #1E212D !important;
+}
+
+.vertical-timeline-element-content {
+  box-shadow: none !important;
+  border: 1px solid #050816 !important;
+  transition: border-color 0.3s ease !important;
+}
+
+.vertical-timeline-element-content:hover {
+  border-color: #21D19F !important;
+}
+
+.vertical-timeline-element-icon {
+  box-shadow: 0 0 0 4px #21D19F, inset 0 2px 0 rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05) !important;
+}
+
+@media only screen and (max-width: 1170px) {
+  .vertical-timeline-element-content .vertical-timeline-element-date {
+    color: #21D19F !important;
+    font-weight: 600;
+  }
+}

@@ -1,6 +1,6 @@
 import { HashRouter } from "react-router-dom";
 
-import { Home, Navbar, About, Projects, Research, Footer } from './components';
+import { Home, Navbar, About, Experience, Projects, Research, Footer } from './components';
 
 const App = () => {
   return (
@@ -11,6 +11,7 @@ const App = () => {
           <Home />
           <div className="bg-primary">
             <About />
+            <Experience />
             <Projects />
             <Research />
             <Footer />

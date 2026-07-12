@@ -14,6 +14,8 @@ import diabetic from "./diabetic.jpg";
 import portfolio from "./portfolio.png";
 import pathmatch from "./pathmatch.png";
 import dishitout from "./dishitout.png";
+import machani from "./machani.png";
+import jpmorgan from "./jpmorgan.png";
 
 
 export {
@@ -33,4 +35,7 @@ export {
   close,
   pathmatch,
   dishitout,
+  machani,
+  jpmorgan,
 };
+

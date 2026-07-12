@@ -18,11 +18,11 @@ const ProjectCard = ({
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}
       className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full card border border-primary hover:border-secondary '>
       <div className='relative w-full h-[230px]'>
-        <img
+        {/* <img
           src={image}
           alt='project_image'
           className='w-full h-full object-cover rounded-2xl'
-        />
+        /> */}
       </div>
 
       <div className='mt-5'>
