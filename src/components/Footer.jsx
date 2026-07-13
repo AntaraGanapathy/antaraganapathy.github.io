@@ -7,7 +7,7 @@ const Footer = () => {
             <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
 
                 <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-                <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2024 Antara Ganapathy. All Rights Reserved.</span>
+                <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2026 Antara Ganapathy. All Rights Reserved.</span>
                 <div class="flex mt-6 sm:justify-center space-x-7 rtl:space-x-reverse">
                     <a href="https://www.linkedin.com/in/antara-ganapathy/" class="text-gray-400 hover:text-gray-900 dark:hover:text-white">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
