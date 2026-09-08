@@ -276,7 +276,8 @@ const experiences = [
     iconBg: "#1E212D",
     date: "Jun 2026 - Aug 2026",
     points: [
-      "Contributing to the International Tax team within the Asset & Wealth Management (AWM) line of business by designing, developing, and implementing new application features.",
+    "Contributed to the International Tax team within the Asset & Wealth Management (AWM) line of business by designing, developing, and implementing new application features.",
+    "Developed and maintained enterprise applications using Spring Boot, React, Oracle databases and Kafka while working in an Agile development environment"  
     ],
   },
   {
@@ -293,7 +294,7 @@ const experiences = [
     ],
   },
   {
-    title: "Spring into Software Engineering",
+    title: "Spring into Tech",
     company_name: "JPMorgan Chase & Co., Glasgow",
     icon: jpmorgan,
     iconBg: "#1E212D",
