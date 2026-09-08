@@ -1,15 +1,4 @@
 import {
-  chatbot,
-  ipcc,
-  news,
-  diabetic,
-  portfolio,
-  pneumonia,
-  glaucoma,
-  sentiment,
-  budgetary,
-  pathmatch,
-  dishitout,
   machani,
   jpmorgan,
 } from "../assets";
