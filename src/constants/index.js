@@ -276,9 +276,10 @@ const experiences = [
     iconBg: "#1E212D",
     date: "Jun 2026 - Aug 2026",
     points: [
-    "Contributed to the International Tax team within the Asset & Wealth Management (AWM) line of business by designing, developing, and implementing new application features.",
-    "Developed and maintained enterprise applications using Spring Boot, React, Oracle databases and Kafka while working in an Agile development environment"  
-    ],
+    "Contributed to the International Tax team within the Asset & Wealth Management (AWM) line of business",
+    "Owned a new solution for the Operations team team end-to-end, covering technical design, database schema, backend services and the frontend UI, delivered production-ready within 8-weeks.",
+    "Built with Spring Boot, React and SQL while working in an Agile team."
+  ],
   },
   {
     title: "Intern",
